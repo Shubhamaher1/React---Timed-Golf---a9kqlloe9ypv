@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./styles/App.css";
 
-function Timer() {
+function App() {
   const [renderBall, setRenderBall] = useState(false);
   const [time, setTime] = useState(0);
   const [ballPosition, setBallPosition] = useState({
@@ -91,4 +91,4 @@ function Timer() {
   );
 }
 
-export default Timer;
+export default App;
